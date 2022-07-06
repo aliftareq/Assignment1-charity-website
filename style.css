@@ -1,6 +1,9 @@
 body {
     font-family: 'Finlandica', sans-serif;
-    margin: 0px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .section1 {
@@ -17,6 +20,7 @@ body {
 }
 
 .top-heading {
+    padding-top: 100px;
     font-size: 80px;
     color: #eb3349;
 }
@@ -101,6 +105,8 @@ body {
 
 .payment-method {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .payment-name {
