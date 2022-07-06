@@ -2,3 +2,44 @@ body {
     font-family: 'Finlandica', sans-serif;
     margin: 0px;
 }
+
+.sections {
+    height: 700px;
+    background-image: url("./images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 5px solid yellow;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin: 150px;
+}
+
+.top-heading {
+    font-size: 80px;
+    color: #eb3349;
+}
+
+.quote {
+    font-size: 35px;
+    color: yellow;
+}
+
+.paragraph {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.button {
+    padding: 20px 45px;
+    border-radius: 5px;
+    background-color: #eb3349;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+    size: 50px;
+}
