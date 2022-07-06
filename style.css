@@ -62,13 +62,14 @@ body {
 }
 
 .donate-small-text {
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .parent-card {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .child-card {
@@ -110,12 +111,12 @@ body {
 }
 
 .payment-name {
-    background-color: red;
     margin-left: 5px;
     margin-right: 5px;
-    padding-left: 230px;
-    padding-right: 230px;
+    padding-left: 150px;
+    padding-right: 150px;
     color: white;
+    text-align: center;
 }
 
 #card {
@@ -177,7 +178,83 @@ body {
 }
 
 .card-paragraph {
+    height: 100px;
+    width: 180px;
     font-size: 10px;
+
+}
+
+
+.section4 {
+    display: flex;
+    margin-top: -150px;
+    height: 550px;
+}
+
+
+.section4-text {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 15px;
+    color: gray;
+}
+
+.skip-text {
+    color: orange;
+}
+
+.paragraph {
+    margin: 10px;
+    font-weight: 550;
+}
+
+.button-section4 {
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-image: linear-gradient(to right, orange, tomato);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.section4-image-div {
+    padding: 30px;
+    width: 50%;
+
+}
+
+.section4-image {
+    height: 100%;
+    width: 100%;
+}
+
+.section5 {
+    margin-top: 50px;
+    display: flex;
+    height: 550px;
+}
+
+.section5-image-div {
+    padding: 30px;
+    width: 50%;
+}
+
+.section5-image {
+    height: 100%;
+    width: 100%;
+}
+
+.section5-text-div {
+    width: 50%;
+    padding-left: 50px;
 }
 
 footer {
